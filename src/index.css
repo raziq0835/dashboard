@@ -68,3 +68,87 @@ img{
   min-height: 100%;
   object-fit: cover;
 }
+
+.bottom{
+  background: transparent;
+  cursor: pointer;
+}
+
+input{
+  width: 100%;
+  overflow: hidden;
+  background: transparent;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+input::placeholder{
+  color: var(--text-color);
+  opacity: 1;
+}
+
+.primary{
+  color: var(--primary);
+}
+
+.muted{
+  color: var(--text-muted);
+}
+
+.success{
+  color: var(--color-success);
+}
+.warning{
+  color: var(--color-warning);
+}
+
+.profile{
+  
+  height: 2.8rem;
+  width: 2.8rem;
+  min-height: 2.8rem;
+  min-width: 2.8rem;
+  max-height: 2.8rem;
+  max-width: 2.8rem;
+  overflow: hidden;
+  border-radius: 100%;
+  
+}
+
+.icon-wraper{
+  padding: 10px;
+}
+
+.rounded-icon-btn{
+  height: 2rem;
+  width: 2rem;
+  min-height: 2rem;
+  min-width: 2rem;
+  max-height: 2rem;
+  max-width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--ui-secondary);
+  cursor: pointer;
+}
+
+.rounded-icon-btn .icon{
+  width: 10px;
+  height: 18px;
+}
+ 
+.btn{
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  background: var(--ui-secondary);
+  display: inline-flex;
+}
+
+.btn-primary{
+  background: var(--primary);
+  color: var(--color-white);
+}

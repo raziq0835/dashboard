@@ -14,6 +14,7 @@ import './sidebar.css'
 const sidebar = () => {
   return (
     <>
+    <aside className='sidebar'>
     <Logo/> 
     <ul className='tabs'>
         <li className='tab'>
@@ -57,6 +58,7 @@ const sidebar = () => {
         </div>
 
     </div>
+    </aside>
     </>
   )
 }
