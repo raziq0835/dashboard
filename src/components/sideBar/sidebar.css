@@ -22,3 +22,7 @@
     list-style: none;
     flex: 1;
 }
+
+.sidebar .tabs .tab{
+    display: block;
+}
